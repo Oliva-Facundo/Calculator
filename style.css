@@ -9,5 +9,41 @@
 main {
     background: linear-gradient(135deg, blueviolet, purple);
     width: 100%;
-    height: 100vh;
+    min-height: 100vh;
+    padding: 10px;
+}
+
+#container {
+    width: 100%;
+    max-width: 540px;
+    background: #fff ;
+    border-radius: 10px;
+    margin: 100px auto 20px;
+    padding: 40px 30px 70px;
+}
+
+#screen {
+    height: 4em;
+    border: red solid;
+    margin-bottom: 20px;
+}
+
+.botones {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(80px, 3fr));
+    grid-gap: 4rem;
+}
+
+.num {
+    border: none;
+    padding: 10px;
+    background-color: greenyellow;
+    border-radius: 20px;
+}
+
+.operation {
+    border: none;
+    background-color: aquamarine;
+    border-radius: 20px;
+    padding: 10px;
 }
