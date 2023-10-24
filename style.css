@@ -15,8 +15,8 @@ main {
 
 #container {
     width: 100%;
-    max-width: 540px;
-    background: #fff ;
+    max-width: 400px;
+    background: #111 ;
     border-radius: 10px;
     margin: 100px auto 20px;
     padding: 40px 30px 70px;
@@ -26,24 +26,25 @@ main {
     height: 4em;
     border: red solid;
     margin-bottom: 20px;
+    color: white;
 }
 
-.botones {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(80px, 3fr));
-    grid-gap: 4rem;
+.num, .operation {
+    width: 20%;
+    font-size: 20px;
+    font-weight: bold;
+    color: #111;
+    padding: 10px;
+    border: 0;
+    margin: 5px;
+    border-radius: 100%;
+    font-family: Poppins;
 }
 
 .num {
-    border: none;
-    padding: 10px;
-    background-color: greenyellow;
-    border-radius: 20px;
+    background-color: gray;
 }
 
 .operation {
-    border: none;
-    background-color: aquamarine;
-    border-radius: 20px;
-    padding: 10px;
+    background-color: orange;
 }
