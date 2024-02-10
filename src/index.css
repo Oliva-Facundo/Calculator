@@ -1,0 +1,77 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html[data-theme="default"] {
+    --bgMain: 222 26% 31%;
+    --bgToggle: 223 31% 20%;
+    --bgScreen: 224 36% 15%;
+    --bgKp: 223 31% 20%;
+
+    --primaryBg: 30 25% 89%;
+    --primaryBgHover: 30 100% 100%;
+    --primaryText: 221 14% 31%;
+    --primaryShadow: 28 16% 65%;
+
+    --secondaryBg: 225 21% 49%;
+    --secondaryBgHover: 225 51% 76%;
+    --secondaryText: 0 0% 100%;
+    --secondaryShadow: 224 28% 35%;
+
+    --tertiaryBg: 6 63% 50%;
+    --tertiaryBgHover: 6 93% 67%;
+    --tertiaryText: 0 0% 100%;
+    --tertiaryShadow: 6 70% 34%;
+
+    --mainTextColor: 0 0% 100%;
+  }
+
+  html[data-theme="light"] {
+    --bgMain: 0 0% 90%;
+    --bgToggle: 0 5% 81%;
+    --bgScreen: 0 0% 93%;
+    --bgKp: 0 5% 81%;
+
+    --primaryBg: 45 7% 89%;
+    --primaryBgHover: 0 0% 100%;
+    --primaryText: 60 10% 19%;
+    --primaryShadow: 35 11% 61%;
+
+    --secondaryBg: 185 42% 37%;
+    --secondaryBgHover: 184 40% 56%;
+    --secondaryText: 0 0% 100%;
+    --secondaryShadow: 185 58% 25%;
+
+    --tertiaryBg: 25 98% 40%;
+    --tertiaryBgHover: 25 100% 61%;
+    --tertiaryText: 0 0% 100%;
+    --tertiary-shadow: 25 99% 27%;
+
+    --mainTextColor: 60 10% 19%;
+  }
+
+  html[data-theme="violet"] {
+    --bgMain: 268 75% 9%;
+    --bgToggle: 268 71% 12%;
+    --bgScreen: 268 71% 12%;
+    --bgKp: 268 71% 12%;
+
+    --primaryBg: 268 47% 21%;
+    --primaryBgHover: 268 54% 44%;
+    --primaryText: 52 100% 62%;
+    --primaryShadow: 290 70% 36%;
+
+    --secondaryBg: 281 89% 26%;
+    --secondaryBgHover: 280 56% 44%;
+    --secondaryText: 0 0% 100%;
+    --secondaryShadow: 285 91% 52%;
+
+    --tertiaryBg: 176 100% 44%;
+    --tertiaryBgHover: 176 100% 79%;
+    --tertiaryText: 198 20% 13%;
+    --tertiaryShadow: 177 92% 70%;
+
+    --mainTextColor: 52 100% 62%;
+  }
+}
